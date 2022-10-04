@@ -1,5 +1,27 @@
-# jetobank
-## Site institucional
+# Jetobank
 
-### Site construido
-https://uc6c840bfa136bbcd1996f9234c7.previews.dropboxusercontent.com/p/thumb/ABp-hXqLr9-2nicfHd_C4lmY48Zk17nQCLmlR1rlmPIXax0EJdWjtkLUvyeAWuODHZLKwva8ln05cTPHIFtq7a5LKJndkUm94WAFTyh0h-8CqOj7k26relcYmyEg2FOOPAl2CIGmB3gsOT6CxAVi1vU7Ho2u3mPtTCeSFC62leEXdCE0RMAS2rHyjLTh5X2WZLMph-xis46BB0LGw4wkcvtZTK4PouSbQX3E0-tV3dHGAhVYUDCEMjVvGJTj2eIXInPPAnLiBuBifLKBsTdFDtbOvVcDNS7CkLQWJ1ZdtK-VlkF_7FfD1J_kV4o1oCWjzMX9bzADkYZ5Env9IRMsqQdsCkxARZOQmFLZqkZT5wyRfXn7eAgPbil8rtU6JFcj5REGc9U3rDoVG_NhZWZdjhdEk0YaL3ais-HZn2hPfdxFItVovjFRMf234nuwprbcY_k/p.png
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
