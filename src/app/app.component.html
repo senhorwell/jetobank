@@ -1,6 +1,8 @@
-<div class="toolbar" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+<div class="toolbar" id="banner-home">
+  <nav class="navbar navbar-expand-lg navbar-light container">
+    <a class="navbar-brand" href="#">
+      <img class="logo" src="assets/logo.svg" width="150px"/>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,31 +13,222 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#quemsomos">Quem somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Aplicativo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#feedback">Dúvidas frequentes</a>
+        </li>
+        <li class="nav-item button">
+          <a class="nav-link" href="#register">Acesse sua conta</a>
+        </li>
+        <li class="nav-item button">
+          <a class="nav-link" href="#register">Quero ser <strong>Jetobank</strong></a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
-  </nav>
+  </nav>  
+  <div class="bg-blue">
+    <h2>Entenda com a Jeto pode aumentar seu resultado sem aumentar seu esforço.</h2>
+    <button type="button" class="btn btn-light">Saiba como</button>
+  </div>
 </div>
 
+<div id="quemsomos" class="flux container">
+  <ul class="d-inline-flex justify-content-around">
+    <li><img src="assets/flux/01.svg" width="100%" height="auto"></li>
+    <li><img src="assets/flux/02.svg" width="100%" height="auto"></li>
+    <li><img src="assets/flux/03.svg" width="100%" height="auto"></li>
+    <li><img src="assets/flux/04.svg" width="100%" height="auto"></li>
+    <li><img src="assets/flux/05.svg" width="100%" height="auto"></li>
+  </ul>
+</div>
+
+<div class="prazer container">
+  <div class="bg-prazer">
+    <div class="size-50">
+      <h2 class="text-light font-weight">Prazer, somos a Jeto!</h2>
+      <p class="text-light">Nossos serviços visam a implementação de soluções que permitem as empresas aproveitarem de forma mais racional e moderna o seu próprio ecossistema financeiro.</p>
+      <p class="text-light">Ofertamos contas digitais, consórcios, seguros, créditos de várias formas e muito mais.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container d-flex align-items-center px-5">
+  <h2 class="text-blue font-weight">Jeto é o seu banco completo, para todo o seu ecossistema</h2>
+  <img src="assets/04.svg" width="70%"/>
+</div>
+
+<div class="container d-flex align-items-center px-5">
+  <img src="assets/05.svg" width="70%"/>
+  <h2 class="text-blue font-weight px-3">Temos a solução certa para cada tipo de cliente</h2>
+</div>
+
+<div class="solution-container container">
+  <div class="solution col-12 d-flex align-items-center justify-content-between px-5">
+    <div class="col-4 d-flex flex-column">
+      <h4 class="title">Nossas soluções</h4>
+      <h3>A solução certa para cada tipo de necessidade!</h3>
+      <button type="button" class="btn btn-primary">Comece agora</button>
+
+    </div>
+  
+    <div class="solution-box col-8 d-flex flex-wrap">
+      <div class="col-4 d-flex flex-column">
+        <div class="solution-title d-flex align-items-center">
+          <img src="assets/solutions/01.svg"/>
+          <h5 class="font-weight">Conta Digital</h5>
+        </div>
+        <ul>
+          <li>TED</li>
+          <li>Pagamento de contas</li>
+          <li>Saques</li>
+          <li>Pix</li>
+          <li>Cashback</li>
+          <li>POS jetoBank</li>
+        </ul>
+      </div>
+      <div class="col-4 d-flex flex-column">
+        <div class="solution-title d-flex align-items-center">
+          <img src="assets/solutions/02.svg"/>
+          <h5 class="font-weight">Crédito</h5>
+        </div>
+        <ul>
+          <li>Antecipação de Recebíveis</li>
+          <li>Consignado Privado</li>
+          <li>Consignado Público</li>
+          <li>Financiamentos</li>
+          <li>Crédito Estruturado</li>
+        </ul>
+      </div>
+      <div class="col-4 d-flex flex-column">
+        <div class="solution-title d-flex align-items-center">
+          <img src="assets/solutions/03.svg"/>
+          <h5 class="font-weight">Investimentos</h5>
+        </div>
+        <ul>
+          <li>Ações</li>
+          <li>Fundos</li>
+          <li>Consórcios</li>
+        </ul>
+      </div>
+      <div class="col-4 d-flex flex-column">
+        <div class="solution-title d-flex align-items-center">
+          <img src="assets/solutions/04.svg"/>
+          <h5 class="font-weight">Seguros</h5>
+        </div>
+        <ul>
+          <li>XXXXXXXXXXXXX</li>
+          <li>XXXXX</li>
+        </ul>
+      </div>
+      <div class="col-4 d-flex flex-column">
+        <div class="solution-title d-flex align-items-center">
+          <img src="assets/solutions/05.svg"/>
+          <h5 class="font-weight">Automação</h5>
+        </div>
+        <ul>
+          <li>Cobrança</li>
+          <li>Folha de Pagamento</li>
+          <li>Pagamento de Benefícios</li>
+          <li>Pagamento de Fornecedores</li>
+          <li>Split de Recebimentos</li>
+          <li>Split de Pagamento</li>
+        </ul>
+      </div>
+      <div class="col-4 d-flex flex-column">
+        <div class="solution-title d-flex align-items-center">
+          <img src="assets/solutions/06.svg"/>
+          <h5 class="font-weight">Cashback</h5>
+        </div>
+        <ul>
+          <li>XXXXXXXX</li>
+          <li>XXXXXX</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="growflux container-fluid px-0">
+  <img class="w-100" src="assets/growflux.PNG" />
+</div>
+
+<div class="oportunidades d-flex justify-content-center flex-column align-items-center my-5 py-5">
+  <h2 class="text-blue">Oportunidades e beneficios que vão além do campo!</h2>
+  <button type="button" class="btn btn-primary col-2">Faça parte</button>
+  <img src="assets/oportunidade.svg" width="100%"/>
+</div>
+
+<div id="feedback" class="feedback container text-center">
+  <button type="button" class="btn btn-primary col-4">Clientes Jeto Sabe!</button>
+  <div class="d-flex justify-content-around flex-wrap py-5">
+
+    <div class="col-5 feedback-card">
+      <p class="feed"><span>❝❝</span>Feedback da rosana<span>❞❞</span></p>
+      <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+    </div>
+    
+    <div class="col-5 feedback-card">
+      <p class="feed"><span>❝❝</span>Feedback da rosana<span>❞❞</span></p>
+      <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+    </div>
+    
+    <div class="col-5 feedback-card">
+      <p class="feed"><span>❝❝</span>Feedback da rosana<span>❞❞</span></p>
+      <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+    </div>
+    
+    <div class="col-5 feedback-card">
+      <p class="feed"><span>❝❝</span>Feedback da rosana<span>❞❞</span></p>
+      <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+    </div>
+  </div>
+  <button type="button" class="btn btn-primary col-4">Faça que nem eles, <strong>seja Jeto</strong></button>
+</div>
+
+<div id="register" class="container-fluid bg-fluid-blue">
+  <div class="container d-flex align-items-center p-5 justify-content-center">
+    <img src="assets/form-photo.svg" width="45%"/>
+    <div class="form col-6 justify-content-center d-flex text-center">
+      <form class="col-12">
+        <input id="name" type="text" class="col-12 my-2" placeholder="Nome / Sobrenome"/>
+        <input id="phone" type="text" class="col-12 my-2" placeholder="Celular"/>
+        <input id="email" type="text" class="col-12 my-2" placeholder="E-mail"/>
+        <input id="cnpj" type="text" class="col-12 my-2" placeholder="CNPJ"/>
+        <input id="location" type="text" class="col-12 my-2" placeholder="Cidade / Estado"/>
+        <input id="resposta" type="text" class="col-12 my-2" placeholder="Total"/>
+
+        <h3 class="text-light">Por onde conheceu a Jeto?</h3>
+        <div class="d-flex justify-content-between">
+          <button type="button" onclick="sendWhats()" class="btn btn-light px-3">Rede social</button>
+          <button type="button" onclick="sendWhats()" class="btn btn-light px-3">Indicação</button>
+          <button type="button" onclick="sendWhats()" class="btn btn-light px-3">Pesquisa</button>
+          <button type="button" onclick="sendWhats()" class="btn btn-light px-5">TV</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="last container">
+  <div class="bg-last">
+    <div class="size-50">
+      <h2 class="text-light font-weight">Prazer, somos a Jeto!</h2>
+      <p class="text-light">Nossos serviços visam a implementação de soluções que permitem as empresas aproveitarem de forma mais racional e moderna o seu próprio ecossistema financeiro.</p>
+      <p class="text-light">Ofertamos contas digitais, consórcios, seguros, créditos de várias formas e muito mais.</p>
+    </div>
+  </div>
+</div>
 <div class="content" role="main">
 </div>
+
+<script>
+  function sendWhats() {
+    document.getElementById("resposta").innerHTML = document.getElementById("name").innerHTML + document.getElementById("resposta").innerHTML;
+  }
+</script>
 <router-outlet></router-outlet>
