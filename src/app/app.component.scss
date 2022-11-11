@@ -7,12 +7,12 @@ body {
     text-transform: uppercase !important;
 }
 #banner-home {
-    background-image: url( '../assets/01.png' );
+    background-image: url( '../assets/01.png');
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     height: 50vh;
     position: relative;
-
+    min-height: 530px;
 }
 .size-50 {
     width: 50%;
@@ -29,7 +29,7 @@ a.button {
     text-decoration: none;
     color: #003da7;
     background-color: white;
-    padding: 10px 110px;
+    padding: 10px 90px;
 }
 
 .btn-primary {
@@ -100,10 +100,10 @@ button {
 }
 .flux ul li {
     width: 20%;
-    -webkit-transition: width 1s ease-in-out;
-    -moz-transition: width 1s ease-in-out;
-    -o-transition: width 1s ease-in-out;
-    transition: width 1s ease-in-out;
+    -webkit-transition: transform 1s ease-in-out;
+    -moz-transition: transform 1s ease-in-out;
+    -o-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
     position: relative;
     display: flex;
     justify-content: center;
@@ -120,12 +120,8 @@ button {
     padding-right: 10px;
 }
 .flux ul li:hover {
-    -webkit-transition: width 1s ease-in-out;
-    -moz-transition: width 1s ease-in-out;
-    -o-transition: width 1s ease-in-out;
-    transition: width 1s ease-in-out;
-
-    width:25%;
+    transform: scale(1.2);
+    z-index: 10;
 }
 .navbar-light .navbar-toggler {
     border: none;
@@ -155,6 +151,8 @@ button {
     color: #003da7;
     font-weight: bold;
     font-size: 2.4rem;
+    
+    line-height: 2.4rem;
 }
 .bg-fluid-blue {
     background-color: #003da7;
@@ -166,6 +164,10 @@ button {
 
 .solucao h4 {
     padding-left: 50px;
+}
+
+.solution h4.title {
+    font-size: 1.5rem;
 }
 .solution h5 {
     color: #003da7;
@@ -192,6 +194,8 @@ button {
 .solution h3 {
     font-size: 2.2rem;
     font-weight: bold;
+
+    line-height: 2.3rem;
 }
 
 .solution button {
@@ -213,7 +217,8 @@ button {
     font-size: 2.6rem;
 }
 
- button {
+
+a.button, button {
     font-size: 1.4rem;
 }
 .feedback-card p {
@@ -247,11 +252,11 @@ button {
     text-transform: uppercase;
 }
 .feedback-card p.feed {
-    bottom: 34px;
+    bottom: 54px;
 }
 
 .feedback-card p.autor {
-    bottom: 20px;
+    bottom: 40px;
 }
 .feedback-card span {
     font-size: 1.7rem;
@@ -296,6 +301,7 @@ input::-ms-input-placeholder {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
+    line-height: 2.7rem;
 }
 #register h2 strong {
     font-weight: 900;

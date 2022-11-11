@@ -1,5 +1,5 @@
 <div class="toolbar" id="banner-home">
-  <div class="navbar navbar-expand-lg navbar-light container pt-5">
+  <div class="navbar navbar-expand-lg navbar-light container pt-3">
     <a class="navbar-brand" href="#">
       <img class="logo" src="assets/logo.svg" width="150px"/>
     </a>
@@ -82,8 +82,8 @@
 <div class="solution-container container my-5 pt-3 pb-4">
   <div class="solution col-12 d-flex align-items-center flex-column flex-md-row flex-wrap justify-content-between my-5">
     <div class="col-md-6">
-      <div class="col-12 col-md-8 d-flex flex-column mb-5 px-0 align-items-center">
-        <h4 class="title text-center font-bold w-100">Nossas soluções</h4>
+      <div class="col-12 d-flex flex-column mb-5 px-0 align-items-center">
+        <h4 class="title text-center font-bold w-100 py-3">Nossas soluções</h4>
         <h3 class=" font-weight">A solução certa<br> para cada tipo de necessidade!</h3>
         <button type="button" class="btn btn-primary">Comece agora</button>
       </div>
@@ -180,60 +180,47 @@
   <img class="mt-5" src="assets/oportunidade.svg" width="100%"/>
 </div>
 
-<div id="feedback" class="feedback text-center mb-5">
+<!--<div id="feedback" class="feedback text-center mb-5">
   <h4 class="text-blue">Clientes Jeto Sabe!</h4>
-  <div class="d-flex justify-content-around flex-wrap py-5">
-    <div class="col-12 col-md-6 feedback-card">
-      <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
-      <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
-    </div>
-    <div class="col-12 col-md-6 feedback-card">
-      <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
-      <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
-    </div>
+  <div class="container">
+    <div class="w-100 mb-5">
+      <owl-carousel-o [options]="customFeedback">
+        <ng-template carouselSlide>
+          <div class="feedback-card">
+            <div class="profile-box">
+              <img class="profile" src="assets/avaliacao.jpg"/>
+            </div>
+            <img src="assets/feedback-card.svg"/>
+            <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
+            <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="feedback-card">
+            <div class="profile-box">
+              <img class="profile" src="assets/avaliacao2.jpg"/>
+            </div>
+            <img src="assets/feedback-card.svg"/>
+            <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
+            <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="feedback-card">
+            <div class="profile-box">
+              <img class="profile" src="assets/avaliacao.jpg"/>
+            </div>
+            <img src="assets/feedback-card.svg"/>
+            <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
+            <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
+          </div>
+        </ng-template>
   
+      </owl-carousel-o>
+    </div>
   </div>
   <button type="button" class="btn btn-primary col-12 col-md-5 mt-5">Faça que nem eles<br> <strong>seja Jeto</strong></button>
-</div>
-
-<div class="container">
-
-  <div class="w-100 mb-5">
-    <owl-carousel-o [options]="customFeedback">
-      <ng-template carouselSlide>
-        <div class="feedback-card">
-          <div class="profile-box">
-            <img class="profile" src="assets/avaliacao.jpg"/>
-          </div>
-          <img src="assets/feedback-card.svg"/>
-          <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
-          <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
-        </div>
-      </ng-template>
-      <ng-template carouselSlide>
-        <div class="feedback-card">
-          <div class="profile-box">
-            <img class="profile" src="assets/avaliacao2.jpg"/>
-          </div>
-          <img src="assets/feedback-card.svg"/>
-          <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
-          <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
-        </div>
-      </ng-template>
-      <ng-template carouselSlide>
-        <div class="feedback-card">
-          <div class="profile-box">
-            <img class="profile" src="assets/avaliacao.jpg"/>
-          </div>
-          <img src="assets/feedback-card.svg"/>
-          <p class="feed"><span>❝</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span>❞</span></p>
-          <p class="autor"><strong>DR. John Smith</strong> (CEO, Reference)</p>
-        </div>
-      </ng-template>
-
-    </owl-carousel-o>
-  </div>
-</div>
+</div>-->
 
 <div id="register" class="container-fluid bg-fluid-blue mb-5">
   <div class="mb-5 d-flex align-items-center p-5 justify-content-center flex-column flex-md-row">
@@ -262,24 +249,25 @@
 
 <div class="container my-5 py-5">
   <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide><img class="company" src="assets/companies/1.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/2.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/3.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/4.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/5.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/6.png"/></ng-template>
+    <ng-template carouselSlide><img class="company" src="assets/companies/7.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/8.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/9.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/10.png"/></ng-template>
     <ng-template carouselSlide><img class="company" src="assets/companies/11.png"/></ng-template>
-    <ng-template carouselSlide><img class="company" src="assets/companies/12.png"/></ng-template>
   </owl-carousel-o>
 </div>
 
 <div class="last container mt-5">
-  <img class="w-100 mt-5" src="assets/last.PNG"/>
+  <img class="w-100 my-5" src="assets/last.PNG"/>
 </div>
 
-<footer class="site-footer">
+<footer class="site-footer mt-5">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6">
