@@ -10,12 +10,12 @@ body {
     background-image: url( '../assets/01.png');
     background-repeat: no-repeat;
     background-size: 100% 100%; 
-    height: 50vh;
+    height: 80vh;
     position: relative;
     min-height: 530px;
 }
 .size-50 {
-    width: 50%;
+    width: 60%;
 }
 .size-70 {
     width: 70%;
@@ -57,7 +57,7 @@ button {
 .navbar li a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .navbar li.button a {
@@ -68,9 +68,8 @@ button {
 }
 
 .bg-blue {
-    background-color: #003da7;
     position: absolute;
-    bottom: 120px;
+    bottom: 80px;
     left: 0px;
     width: 48%;
     padding-left: 270px;
@@ -78,16 +77,25 @@ button {
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 
-    align-items: center;
+    align-items: start;
+}
+
+.bg-blue h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #003da7;
+    color: white;
+    padding: 10px;
 }
 
 .bg-blue h2 {
+    padding: 10px;
+    background-color: #003da7;
     color: #fff;
     line-height: 2.3rem;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 1.4rem;
 }
 
@@ -127,21 +135,27 @@ button {
     border: none;
 }
 .prazer .bg-prazer {
-    background: url(../assets/03.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 30px;
     margin: 0px 0px 50px 0px;
+    margin-top: 60px;
 }
 
 .prazer h2 {
-    font-size: 2.5rem;
+    color: #003da7 !important;
+    font-size: 2.4rem;
+    font-weight: bold;
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .prazer p {
+    color: #003da7 !important;
+    text-align: justify;
+
     padding-left: 52px;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+
 }
 
 .growflux h2 {
@@ -163,7 +177,12 @@ button {
 }
 
 .solucao h4 {
-    padding-left: 50px;
+    line-height: 4rem;
+}
+.solucao h4 strong {
+    background-color: #003da7;
+    color: white;
+    padding: 10px;
 }
 
 .solution h4.title {
@@ -217,7 +236,12 @@ button {
     font-size: 2.6rem;
 }
 
-
+.oportunidades h5 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    text-align: justify !important;
+    font-weight: 400;
+}
 a.button, button {
     font-size: 1.4rem;
 }
@@ -296,12 +320,14 @@ input::-ms-input-placeholder {
     width: 55px;
     height: 55px;
 }
-
+#register {
+    margin-bottom: 80px;
+}
 #register h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
-    line-height: 2.7rem;
+    line-height: 3rem;
 }
 #register h2 strong {
     font-weight: 900;
@@ -322,7 +348,7 @@ input::-ms-input-placeholder {
 
 .site-footer
 {
-  background-color:#003bab;
+  background-color:#33353d;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -388,7 +414,7 @@ input::-ms-input-placeholder {
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:white
 }
 .copyright-text
 {

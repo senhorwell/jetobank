@@ -14,16 +14,10 @@ export class AppComponent {
     const name = (<HTMLInputElement>document.getElementById('name')).value;
     const phone = (<HTMLInputElement>document.getElementById('phone')).value;
     const email = (<HTMLInputElement>document.getElementById('email')).value;
-    const cnpj = (<HTMLInputElement>document.getElementById('cnpj')).value;
-    const location = (<HTMLInputElement>document.getElementById('location')).value;
-    const know = (<HTMLInputElement>document.getElementById('know')).value;
 
     window.open("https://api.whatsapp.com/send?phone=5543999514569&text=*Nome*%3A%20" + name + 
     "%0A*Telefone*%3A%20" + phone 
-    + "%0A*Email*%3A%20" + email 
-    + "%0A*CNPJ*%3A%20" + cnpj 
-    + "%0A*Cidade/Estado*%3A%20" + location 
-    + "%0A*Por onde conheceu a Jeto*%3A%20" + know, '_blank');
+    + "%0A*Email*%3A%20" + email, '_blank');
   }
 
   customOptions: OwlOptions = {
@@ -35,16 +29,16 @@ export class AppComponent {
     navText: ['', ''],
     responsive: {
       0: {
-        items: 4
+        items: 2
       },
       400: {
-        items: 4
+        items: 2
       },
       740: {
-        items: 5
+        items: 4
       },
       940: {
-        items: 9
+        items: 4
       }
     },
   }
