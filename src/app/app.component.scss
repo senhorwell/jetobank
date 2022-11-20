@@ -8,11 +8,12 @@ body {
 }
 #banner-home {
     background-image: url( '../assets/01.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
-    height: 80vh;
+    height: 100vh;
     position: relative;
-    min-height: 530px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .size-50 {
     width: 60%;
@@ -68,18 +69,12 @@ button {
 }
 
 .bg-blue {
-    position: absolute;
-    bottom: 80px;
-    left: 0px;
-    width: 48%;
-    padding-left: 270px;
-    padding-top: 15px;
-    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-
     align-items: start;
+    position: absolute;
+    bottom: 30%;
 }
 
 .bg-blue h1 {
@@ -126,6 +121,10 @@ button {
     text-align: center;
     line-height: 0.9rem;
     padding-right: 10px;
+}
+.flux img {
+    box-shadow: -10px 10px 25px #a1a1a1;
+    border-radius: 70px;
 }
 .flux ul li:hover {
     transform: scale(1.2);
@@ -289,6 +288,7 @@ input {
     border-radius: 100px;
     font-size: 1.3rem;
     padding: 10px;
+    text-align: center;
     color: #003da7;
     border: 1px solid #fff;
 }
