@@ -68,6 +68,19 @@ button {
     padding: 5px 30px;
 }
 
+.bg-blue-last {
+    background-color: #003da7;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    color: white;
+}
+.bg-blue-last h1 {
+    padding: 20px 0px;
+    margin: 0;
+}
 .bg-blue {
     display: flex;
     flex-direction: column;
@@ -324,7 +337,6 @@ input::-ms-input-placeholder {
     margin-bottom: 80px;
 }
 #register h2 {
-    text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 3rem;
@@ -341,6 +353,23 @@ input::-ms-input-placeholder {
 
 #register .btn p {
     margin: 0px;
+}
+
+#register img.phone {
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 .last {
     margin-top: 130px;
