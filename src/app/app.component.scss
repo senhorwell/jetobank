@@ -91,11 +91,12 @@ button {
 }
 
 .bg-blue h1 {
-    font-size: 1.8rem;
+    font-size: 5rem;
     font-weight: bold;
     background-color: #003da7;
     color: white;
     padding: 10px;
+    line-height: 6rem;
 }
 
 .bg-blue h2 {
@@ -122,6 +123,9 @@ button {
     transition: transform 1s ease-in-out;
     position: relative;
     display: flex;
+    
+    box-shadow: -10px 10px 25px #a1a1a1;
+    border-radius: 130px;
     justify-content: center;
 }
 
@@ -133,11 +137,11 @@ button {
     width: 50%;
     text-align: center;
     line-height: 0.9rem;
-    padding-right: 10px;
+    left: 20%;
 }
 .flux img {
-    box-shadow: -10px 10px 25px #a1a1a1;
-    border-radius: 70px;
+    width: 100%;
+    height: 100%;
 }
 .flux ul li:hover {
     transform: scale(1.2);
@@ -248,6 +252,45 @@ button {
     font-size: 2.6rem;
 }
 
+.oportunidades .img-carousel {
+    width: 250px !important;
+    height: 250px !important;
+}
+.oportunidades .direita {
+    top: 100px;
+    left: 50px;
+    transform: translateX(-50px);
+    animation: direita 3s ease-in-out infinite;
+}
+@keyframes direita {
+    0% {
+        transform: translateX(-50px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-50px);
+    }
+}
+
+.oportunidades .esquerda {
+    bottom: 80px;
+    right: 20px;
+    transform: translateX(0px);
+    animation: esquerda 3s ease-in-out infinite;
+}
+@keyframes esquerda {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
 .oportunidades h5 {
     font-size: 1.7rem;
     line-height: 2rem;
@@ -360,12 +403,60 @@ input::-ms-input-placeholder {
     animation: float 5s ease-in-out infinite;
 }
 
+.animated-1 {
+    transform: translateY(0px);
+    animation: float1 8s ease-in-out infinite;
+}
+
+.animated-2 {
+    transform: translateY(-100px);
+    animation: float2 8s ease-in-out infinite;
+}
+
+
+.animated-3 {
+    transform: translateY(0px);
+    animation: float3 8s ease-in-out infinite;
+}
 @keyframes float {
     0% {
         transform: translateY(0px);
     }
     50% {
         transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes float1 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes float2 {
+    0% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}
+@keyframes float3 {
+    0% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(-15px);
     }
     100% {
         transform: translateY(0px);

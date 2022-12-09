@@ -27,7 +27,7 @@
   </div>  
   <div class="bg-blue container-fluid">
     <div class="container">
-      <div class="col-5 p-0 m-0">
+      <div class="col-9 p-0 m-0">
         <h1>Seu Business em um outro nível</h1>
         <h2>Potencialize o resultado do seu business com a Jeto,<br> por meio soluções financeiras modernas e customizadas.</h2>
         <a class="button" href="#feedback">Saiba como</a>
@@ -82,9 +82,9 @@
     <h3 class="text-blue font-weight">Jeto é do seu jeito<br><br>Seu jeito, agro<br> Seu jeito, empresário<br> Seu jeito, colaborador<br></h3>
   </div>
   <div class="col-12 col-md-7 m-0 p-0">
-    <img src="assets/likeyou/1.png" class="col-4 m-0 p-0"/>
-    <img src="assets/likeyou/2.png" class="col-4 m-0 p-0"/>
-    <img src="assets/likeyou/3.png" class="col-4 m-0 p-0"/>
+    <img src="assets/likeyou/1.png" style="left: 70px;" class="col-4 m-0 p-0 animated-1"/>
+    <img src="assets/likeyou/2.png" class="col-4 m-0 p-0 animated-2"/>
+    <img src="assets/likeyou/3.png" style="right: 70px;" class="col-4 m-0 p-0 animated-3"/>
   </div>
 </div>
 
@@ -188,7 +188,24 @@
   <h5 class="text-blue text-center col-12 col-md-6">Estamos também no Agronegócio levando soluções financeiras para o pequeno, médio e grande produtor.</h5>
   <h5 class="text-blue text-center col-12 col-md-6">Conte com nossos especialistas para lhe auxiliar antes e depois da porteira</h5>
   <button type="button" class="btn btn-primary col-12 col-md-4 my-5">Fale agora com um especialista</button>
-  <img class="mt-5" src="assets/oportunidade.svg" width="100%"/>
+  <div class="position-relative">
+    <img class="direita position-absolute" src="assets/direita.png"/>
+    <div class="container">
+      <owl-carousel-o [options]="customOportunities">
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/01.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/02.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/03.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/04.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/05.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/06.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/07.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/08.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/09.png"/></ng-template>
+        <ng-template carouselSlide><img class="img-carousel" src="assets/oportunities/10.png"/></ng-template>
+      </owl-carousel-o>
+    </div>
+    <img class="esquerda position-absolute" src="assets/esquerda.png"/>
+  </div>
   <h2 class="text-blue text-center col-12 col-md-6 py-5 my-5">Oportunidades e beneficios que<br> vão além do campo!</h2>
 </div>
 
