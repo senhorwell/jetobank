@@ -47,6 +47,7 @@ export class AppComponent {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
+    nav: false,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -60,7 +61,7 @@ export class AppComponent {
         items: 3
       },
       940: {
-        items: 3
+        items: 4
       }
     },
   }
