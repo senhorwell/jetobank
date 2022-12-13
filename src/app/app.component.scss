@@ -117,14 +117,11 @@ button {
 }
 .flux ul li {
     width: 20%;
-    -webkit-transition: transform 1s ease-in-out;
-    -moz-transition: transform 1s ease-in-out;
-    -o-transition: transform 1s ease-in-out;
     transition: transform 1s ease-in-out;
     position: relative;
     display: flex;
     padding: 10px;
-    box-shadow: -10px 10px 25px #a1a1a1;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.8));
     border-radius: 130px;
     justify-content: center;
 }
@@ -253,7 +250,7 @@ button {
 }
 
 .oportunidades .img-carousel {
-    width: 250px !important;
+    width: auto !important;
     height: 250px !important;
 }
 .oportunidades .direita {
@@ -276,7 +273,7 @@ button {
 }
 
 .oportunidades .esquerda {
-    bottom: 80px;
+    bottom: -120px;
     right: 20px;
 
     z-index: 10;
@@ -469,6 +466,9 @@ input::-ms-input-placeholder {
     margin-top: 130px;
 }
 
+.last .japonese {
+    height: 492px;
+}
 .site-footer
 {
   background-color:#33353d;
