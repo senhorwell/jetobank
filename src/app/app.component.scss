@@ -6,6 +6,17 @@ body {
     font-family: 'Montserrat';
     text-transform: uppercase !important;
 }
+
+h1 {
+    font-size: 30px !important;
+}
+h2 {
+    font-size: 25px !important;
+}
+p,ul li,a {
+    font-size: 19px !important;
+}
+
 #banner-home {
     background-image: url( '../assets/01.png');
     height: 100vh;
@@ -28,13 +39,13 @@ a.button {
     border-radius: 100px;
     width: 310px;
     text-decoration: none;
-    color: #003da7;
+    color: #0000d8;
     background-color: white;
     padding: 10px 90px;
 }
 
 .btn-primary {
-    background-color: #003da7;
+    background-color: #0000d8;
 }
 button {
     border-radius: 100px;
@@ -48,7 +59,12 @@ button {
 .bg-light {
     background-color: transparent !important;
 }
-
+.mini h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    line-height: 1.6rem;
+}
 .logo {
     height: auto;
     margin-top: 0px;
@@ -58,7 +74,6 @@ button {
 .navbar li a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 1.2rem;
 }
 
 .navbar li.button a {
@@ -69,17 +84,18 @@ button {
 }
 
 .bg-blue-last {
-    background-color: #003da7;
+    background-color: white;
     display: flex;
     justify-content: center;
     position: absolute;
     bottom: 80px;
     text-align: center;
-    color: white;
+    color: black;
 }
 .bg-blue-last h1 {
     padding: 20px 0px;
     margin: 0;
+    font-weight: bold;
 }
 .bg-blue {
     display: flex;
@@ -91,21 +107,19 @@ button {
 }
 
 .bg-blue h1 {
-    font-size: 5rem;
     font-weight: bold;
-    background-color: #003da7;
+    background-color: #0000d8;
     color: white;
     padding: 10px;
-    line-height: 6rem;
+    line-height: 3rem;
 }
 
 .bg-blue h2 {
     padding: 10px;
-    background-color: #003da7;
+    background-color: #0000d8;
     color: #fff;
-    line-height: 2.3rem;
+    line-height: 1.4rem;
     text-transform: uppercase;
-    font-size: 1.4rem;
 }
 
 .flux {
@@ -127,10 +141,9 @@ button {
 }
 
 .flux .subtitle {
-    color: #003da7;
+    color: #0000d8;
     top: 53%;
     position: absolute;
-    font-size: 0.7rem;
     width: 50%;
     text-align: center;
     line-height: 0.9rem;
@@ -147,6 +160,10 @@ button {
 .navbar-light .navbar-toggler {
     border: none;
 }
+.prazer {
+    background: #efefef;
+    padding: 150px 0px;
+}
 .prazer .bg-prazer {
     padding: 30px;
     margin: 0px 0px 50px 0px;
@@ -154,19 +171,16 @@ button {
 }
 
 .prazer h2 {
-    color: #003da7 !important;
-    font-size: 2.4rem;
+    color: #000 !important;
     font-weight: bold;
     padding-left: 50px;
     padding-bottom: 20px;
 }
 
 .prazer p {
-    color: #003da7 !important;
+    color: #000 !important;
     text-align: justify;
-
     padding-left: 52px;
-    font-size: 1.7rem;
     line-height: 2rem;
 
 }
@@ -174,37 +188,40 @@ button {
 .growflux h2 {
     padding-top: 500px;
 }
+.text-blue-only {
+    color: #0000d8;
+    text-decoration: underline;
+}
 .text-blue {
-    color: #003da7;
-    font-weight: bold;
-    font-size: 2.4rem;
-    
+    color: #0000d8;
+    font-weight: bold;    
     line-height: 2.4rem;
 }
 .bg-fluid-blue {
-    background-color: #003da7;
+    background-color: #0000d8;
+}
+
+.dado {
+    background-color: #0000d8;
+    padding: 250px 0px;
 }
 
 .solution {
-    color: #003da7;
+    color: #0000d8;
 }
 
 .solucao h4 {
     line-height: 4rem;
 }
 .solucao h4 strong {
-    background-color: #003da7;
+    background-color: #0000d8;
     color: white;
     padding: 10px;
 }
 
-.solution h4.title {
-    font-size: 1.5rem;
-}
 .solution h5 {
-    color: #003da7;
+    color: #0000d8;
     padding: 0px 5px;
-    font-size: 1.4rem;
     font-weight: bold;
 }
 .solution ul {
@@ -213,20 +230,17 @@ button {
 
 .solution ul li {
     line-height: 1.2rem;
-    font-size: 0.9rem;
+    display: inline-flex;
 }
 
 .solution h4.title {
-    background: #003da7;
+    background: #0000d8;
     padding: 5px 10px;
     color: #fff;
     font-weight: bold;
 
 }
-.solution h3 {
-    font-size: 2.2rem;
-    font-weight: bold;
-
+.solution h2 {
     line-height: 2.3rem;
 }
 
@@ -244,9 +258,19 @@ button {
     align-items: center;
     padding: 0px 20px;
 }
+.oportunidades {
+    background: #0000d8;
+    color: white !important;
+    padding: 100px 0px;
+}
+
+.oportunidades h2,
+.oportunidades h5 {
+    color: white !important;
+
+}
 .oportunidades h2 {
     font-weight: 900;
-    font-size: 2.6rem;
 }
 
 .oportunidades .img-carousel {
@@ -265,6 +289,12 @@ button {
     transform: translateX(50px);
     animation: direita 3s ease-in-out infinite;
 }
+.oportunidades span {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: #0000d8;
+}
 @keyframes direita {
     0% {
         transform: translateX(50px);
@@ -278,7 +308,7 @@ button {
 }
 
 .oportunidades .esquerda {
-    bottom: 90px;
+    top: -230px;
     right: 100px;
     z-index: 10;
     position: absolute;
@@ -295,8 +325,7 @@ button {
         transform: translateX(100px);
     }
 }
-.oportunidades h5 {
-    font-size: 1.7rem;
+.oportunidades h2 {
     line-height: 2rem;
     text-align: justify !important;
     font-weight: 400;
@@ -307,7 +336,6 @@ a.button, button {
 .feedback-card p {
     text-align: center;
     color: white;
-    font-size: 0.7rem;
     line-height: 0.7rem;
     position: absolute;
     padding: 0px 110px;
@@ -327,11 +355,9 @@ a.button, button {
 }
 .feedback h4 {
     font-weight: 900;
-    font-size: 2.9rem;
     text-transform: uppercase;
 }
 .feedback button {
-    font-size: 1.6rem;
     text-transform: uppercase;
 }
 .feedback-card p.feed {
@@ -341,61 +367,104 @@ a.button, button {
 .feedback-card p.autor {
     bottom: 40px;
 }
-.feedback-card span {
-    font-size: 1.7rem;
-}
 input {
     border-radius: 100px;
     font-size: 1.3rem;
     padding: 10px;
     text-align: center;
-    color: #003da7;
+    color: #0000d8;
     border: 1px solid #fff;
 }
 
 input::placeholder {          
     font-size: 1.3rem;
     text-align: center;
-    color: #003da7;
+    color: #0000d8;
 }
 input:-ms-input-placeholder {
     font-size: 1.3rem;
     text-align: center;
-    color: #003da7;
+    color: #0000d8;
 }
 input::-ms-input-placeholder {
     font-size: 1.3rem;
     text-align: center;
-    color: #003da7;
+    color: #0000d8;
 }
 
-.solution-box .flex-column {
-    padding-bottom: 30px;
-}
-
-.solution-box li {
-    padding-left: 20px;
-}
 .solution-box img {
     width: 55px;
     height: 55px;
 }
+.solution h5 {
+    margin: 10px 0px;
+}
+.solution .rounded {
+    border: 1px solid #ccc;
+    padding: 29px;
+    height: 230px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 29px !important;
+    align-items: start;
+}
+
+.solution p {
+    color: #000;
+}
 #register {
     margin-bottom: 80px;
+    background-color: #87a3ce;
 }
 #register h2 {
-    font-size: 2.5rem;
     font-weight: 300;
     line-height: 3rem;
 }
 #register h2 strong {
     font-weight: 900;
 }
-
+.lorem-box {
+    border: 1px solid #ccc;
+    border-radius: 29px;
+    padding: 100px 0px;
+}
+.seu-jeito, .mini {
+    margin-bottom: 250px;
+}
+#register, .parceiros, .last, .app {
+    padding: 250px 0px;
+}
 #register .btn {
     background-color: #40c351;
     border: none;
     color: white;
+}
+.app {
+    background-color: #0000d8 !important;
+}
+
+.app h1{
+    font-weight: bold;
+    margin: 0px;
+}
+.app h2 {
+    margin: 0px;
+    font-weight: bold;
+}
+.app p {
+    padding: 16px 0px;
+    line-height: 1.9rem;
+}
+.blue-button {
+    background-color: #0000d8 !important;
+    color: white !important;
+}
+.dark-button {
+    background-color: #000 !important;
+    color: white !important;
 }
 
 #register .btn p {
@@ -468,6 +537,7 @@ input::-ms-input-placeholder {
 }
 .last {
     margin-top: 130px;
+    background-color: #bca78b;
 }
 
 .last .japonese {
@@ -477,7 +547,6 @@ input::-ms-input-placeholder {
 {
   background-color:#33353d;
   padding:45px 0 20px;
-  font-size:15px;
   line-height:24px;
   color:#fff;
 }
@@ -490,10 +559,9 @@ input::-ms-input-placeholder {
 {
   margin:20px 0
 }
-.site-footer h6
+.site-footer h2
 {
   color:#fff;
-  font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
@@ -582,12 +650,10 @@ input::-ms-input-placeholder {
   text-transform:uppercase;
   color:#96a2b2;
   font-weight:700;
-  font-size:13px
 }
 .social-icons a{
   background-color:#eceeef;
   color:#818a91;
-  font-size:16px;
   display:inline-block;
   line-height:44px;
   width:44px;
@@ -609,7 +675,6 @@ input::-ms-input-placeholder {
   line-height:34px;
   height:34px;
   width:34px;
-  font-size:14px
 }
 .social-icons a.facebook:hover
 {

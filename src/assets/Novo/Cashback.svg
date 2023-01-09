@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="20" viewBox="0 0 133 20">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 53.032px;
+        fill: #0014be;
+        font-family: Montserrat;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="Cashback" class="cls-1" transform="matrix(0.472, 0, 0, 0.471, -0.239, 19.237)">Cashback</text>
+</svg>
